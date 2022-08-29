@@ -2,6 +2,14 @@ html {
     overflow: hidden;
 }
 
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+.fixed {
+    position:fixed; /*позицианируем чтобы исчез скролл*/
+    width:100%; /*что бы верстка не складывалась по ширине*/
+    }
+
+
 body{
     margin: 0;
     background-color: #eaeaee;
