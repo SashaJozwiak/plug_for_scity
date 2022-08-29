@@ -1,7 +1,7 @@
 (function() {
     // Add event listener
     document.addEventListener("mousemove", parallax);
-    document.addEventListener("touchmove", parallax);
+    //document.addEventListener("touchmove", parallax);
 
     const elem = document.querySelector("#parallax");
     // Magic happens here
