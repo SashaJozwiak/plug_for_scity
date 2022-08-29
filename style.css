@@ -141,3 +141,12 @@ h1 {
         background-size: 400%;
   }
   }
+
+  @media (height: 926px) and (width: 428px) {
+    #parallax {
+        -webkit-background-size: 400%; /* cover */
+        -moz-background-size: 400%;
+        -o-background-size: 400%;
+        background-size: 400%;
+  }
+  }
